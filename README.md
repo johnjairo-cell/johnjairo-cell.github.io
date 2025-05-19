@@ -48,3 +48,26 @@
 
 
 --- 
+<section id="intro">
+  <h1>¿Qué es este proyecto?</h1>
+  <p>La inteligencia artificial está transformando el mundo. Pero su impacto no es igual para todos. Esta página es una iniciativa para visibilizar cómo la IA afecta a las poblaciones más pobres, y cómo podemos crear conciencia y soluciones reales.</p>
+  <video controls width="100%">
+    <source src="videos/intro.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video>
+</section>
+
+<section id="participa">
+  <h2>Comparte tu realidad</h2>
+  <p>Invitamos a personas de todo el mundo a grabar y enviar videos mostrando la realidad de la pobreza en sus comunidades. Queremos ver lo que los medios no muestran.</p>
+  <p>¿Qué puedes grabar?</p>
+  <ul>
+    <li>Condiciones de vida actuales</li>
+    <li>Dificultades para acceder a tecnología o educación</li>
+    <li>Historias personales frente al avance tecnológico</li>
+  </ul>
+  <p>Envíanos tu video a: <a href="mailto: johnmontoya.050@gmail.com">johnmontoya.050@gmail.com</a> o súbelo a redes con el hashtag <strong>#VozDeLaPobrezaIA</strong>.</p>
+</section>
+
+
+---
