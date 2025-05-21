@@ -71,3 +71,133 @@
 
 
 ---
+!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video - Realidad y Tecnología</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+    }
+
+    iframe {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    .cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .cta-buttons a {
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 25px;
+      background-color: #0057ff;
+      color: white;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .cta-buttons a:hover {
+      background-color: #003fba;
+    }
+
+    .hashtags {
+      font-size: 16px;
+      margin-top: 20px;
+      color: #666;
+    }
+
+    form input, form textarea {
+      width: 80%;
+      max-width: 500px;
+      padding: 10px;
+      margin: 10px auto;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    form button {
+      padding: 12px 25px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #218838;
+    }
+
+    section {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>La Realidad de la Tecnología para los Más Pobres</h1>
+
+  <!-- Video de YouTube -->
+  <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/Refy8t2G7pM" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+
+  <!-- Botones de llamada a la acción -->
+  <div class="cta-buttons">
+    <a href="#compartir">Comparte</a>
+    <a href="#sube-video">Sube tu video</a>
+    <a href="#mas-videos">Más videos</a>
+    <a href="#apoya">Apoya esta causa</a>
+  </div>
+
+  <!-- Hashtags sugeridos -->
+  <div class="hashtags">
+    Usa estos hashtags al compartir:  
+    <br>
+    <strong>#IAparaLosPobres #TecnologíaJusta #HumanidadDigital #VocesDelSur</strong>
+  </div>
+
+  <!-- Código QR del video -->
+  <section id="qr-video">
+    <h2>Escanea el código QR para ver el video</h2>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://youtube.com/shorts/Refy8t2G7pM?si=Y1nhhcVYosgd4KQH&size=250x250" 
+         alt="QR del video en YouTube" width="250" height="250">
+  </section>
+
+  <!-- Formulario para subir video -->
+  <section id="sube-video">
+    <h2>Sube tu video</h2>
+    <p>Comparte tu realidad o mensaje relacionado con la inteligencia artificial y la pobreza.</p>
+    <form action="https://formspree.io/f/TU_CODIGO_AQUI" method="POST">
+      <input type="text" name="nombre" w="john jairo" required><br>
+      <input type="email" name="email" ="johnmontoya.050@gmail.com " required><br>
+      <input type="url" name="enlace_video" placeholder=
+"https://youtube.com/shorts/Refy8t2G7pM?si=Y1nhhcVYosgd4KQH."><br>
+      <textarea name="mensaje" rows="4" placeholder="la pobreza y la desigualdad social se unen al avance tecnológico a la inteligencia artificial por un futuro mejor para los pobres"></textarea><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+</body>
+</html>
+
+
