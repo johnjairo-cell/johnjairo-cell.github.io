@@ -187,12 +187,12 @@
   <section id="sube-video">
     <h2>Sube tu video</h2>
     <p>Comparte tu realidad o mensaje relacionado con la inteligencia artificial y la pobreza.</p>
-    <form action="https://formspree.io/f/TU_CODIGO_AQUI" method="POST">
-      <input type="text" name="nombre" w="john jairo" required><br>
+    <form action="https://formspree.io/f/7JRM5V-XW059" method="POST">
+      <input type="text" name="name" w="john jairo" required><br>
       <input type="email" name="email" ="johnmontoya.050@gmail.com " required><br>
       <input type="url" name="enlace_video" placeholder=
 "https://youtube.com/shorts/Refy8t2G7pM?si=Y1nhhcVYosgd4KQH."><br>
-      <textarea name="mensaje" rows="4" placeholder="la pobreza y la desigualdad social se unen al avance tecnológico a la inteligencia artificial por un futuro mejor para los pobres"></textarea><br>
+      <textarea name="mensaje" rows="4" placeholder="la pobreza y la desigualdad social se unen al avance tecnológico y a la inteligencia artificial por un futuro mejor para los pobres"></textarea><br>
       <button type="submit">Enviar</button>
     </form>
   </section>
