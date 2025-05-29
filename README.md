@@ -41,7 +41,7 @@
     </section>
 
     <footer>
-        <p>Derechos Reservados © [John Jairo] 2024</p>
+        <p>Derechos Reservados © John Jairo 2024</p>
     </footer>
 </body>
 </html>
@@ -71,7 +71,7 @@
 
 
 ---
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -192,7 +192,7 @@
       <input type="email" name="email" plaseholder="johnmontoya.050@gmail.com " required><br>
       <input type="url" name="enlace_video" placeholder=
 "https://youtube.com/shorts/Refy8t2G7pM?si=Y1nhhcVYosgd4KQH."><br>
-      <textarea name="mensaje" rows="4" placeholder="la pobreza y la desigualdad social se unen al avance tecnológico a la inteligencia artificial por un futuro mejor para los pobres"></textarea><br>
+      <textarea name="mensaje" rows="4" placeholder="la pobreza y la desigualdad social se unen al avance tecnológico y a la inteligencia artificial por un futuro mejor para los pobres"></textarea><br>
       <button type="submit">Enviar</button>
     </form>
   </section>
