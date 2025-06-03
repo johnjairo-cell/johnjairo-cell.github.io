@@ -1,4 +1,4 @@
-<title>Página Personal de IA y YouTube</title> <style> body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; } header { background: #333; color: #fff; padding: 10px 20px; text-align: center; } section { margin: 20px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); } footer { text-align: center; padding: 20px; background: #333; color: white; } </style>
+<title>Página Personal de IA y YouTube</title><style> body {font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333;} header {background: #333; color: #fff; padding: 10px 20px; text-align: center;} section {margin: 20px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);} footer {text-align: center; padding: 20px; background: #333; color: white;} </style>
 Bienvenido a Mi Sitio Web de IA
 <!DOCTYPE html><html lang="es">
 <head>
@@ -81,12 +81,12 @@ font-size: 0.9em;
     <h2>Haz visible lo invisible. Comparte tu historia en video.</h2>
     <p>Este es un espacio para que las personas que viven en pobreza puedan compartir sus testimonios reales con el mundo.</p>
 <a href="#participar"><button>Enviar mi video</button></a>
-  </section>  
-    <section id="historias">
-    <h2>Historias reales</h2>
-<div class="video-grid">
-<iframe src="https://www.youtube.com/shorts/Refy8t2G7pM?si=Y1nhhcVYosgd4KQH" frameborder="0" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/VIDEO_ID2" frameborder="0". allowfullscreen></iframe>
+</section>  
+<section id="historias">
+   <h2>Historias reales</h2>
+   <div class="video-grid">
+   <iframe src="https://www.youtube.com/shorts/Refy8t2G7pM?si=Y1nhhcVYosgd4KQH" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.bing.com/images/search? view=detailV2&ccid=ZRw0W5l%b&id=B039D5F9C48ECE71C29E8E" frameborder="0". allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/VIDEO_ID3" frameborder="0" allowfullscreen></iframe>
    </div>
    </section>  
