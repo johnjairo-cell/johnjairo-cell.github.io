@@ -85,16 +85,19 @@ font-size: 0.9em;
 <section id="historias">
    <h2>Historias reales</h2>
    <div class="video-grid">
-   <iframe src="https://www.youtube.com/shorts/Refy8t2G7pM?si=Y1nhhcVYosgd4KQH" frameborder="0" allowfullscreen></iframe>
-<iframe src="https://www.bing.com/images/search? view=detailV2&ccid=ZRw0W5l%b&id=B039D5F9C48ECE71C29E8E" frameborder="0". allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/VIDEO_ID3" frameborder="0" allowfullscreen></iframe>
+   <iframe width="315" height="560" src="https://www.youtube.com/embed/Refy8t2G7pM"
+title="Origen 2.0 # LaVozDeLaPobrezaIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-inpicture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe wisth="315" height="560" src="https://www.youtube.com/embed/NDwaXh-dE5E" title="La pobreza y la desigualdad social si tienen solución. #noticias #IAParaLosPobres#documental" frameborder="0" allow="accelerometer; autoplay; clipboard-white; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolycy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="315" height="560" src="https://www.com/embed/jLfbocn_BOY" 
+title="Activacion económica mundial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.bing.com/images/search? view=detailV2&ccid=ZRw0W5l%b&id=B039D5F9C48ECE71C29E8E" frameborder="0". allowfullscreen></
    </div>
    </section>  
    <section id="participar">
    <h2>¿Cómo puedes participar?</h2>
    <p>1. Graba un video contando tu historia o la de tu comunidad.<br>
       2. Súbelo a YouTube o Google Drive.<br>
-      3. Llena este formulario para compartirlo con nosotros: <a href="https://forms.gle/TU_FORMULARIO" target="_blank">Enviar video</a></p>
+      3. Llena este formulario para compartirlo con nosotros: <a href="https://docs.google.com/forms/d/1X7qGVHDeL8_ZF6WuyoaRV9aqsxNsBhR7NerkzSqJZ7w/edit" target="_blank">Enviar video</a></p>
   </section>  
   <section id="contacto">
   <h2>Contacto</h2>
@@ -103,7 +106,7 @@ Instagram: @vocesinvisibles<br>
 TikTok: @vocesinvisibles</p>
 </section>  
 <footer>
-<p>&copy; 2025 Voces Invisibles. Proyecto social sin fines de lucro.</p></footer>
+<p>&copy; 2025 Voces Invisibles. Proyecto social sin fines de lucro John Jairo Montoya.</p></footer>
 </body>
 </html>
 
