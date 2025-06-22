@@ -17,7 +17,8 @@
   </div>
 </section>
 section {margin: 20 px; padding: 20 px; background: white; border-radius: 8 px; box-shadow: 0 2 px 5 px rgba (0,0,0,0.1);} footer {text-align: center; padding: 20 px; background: #333; color: white;} </style>
-Bienvenido a Tu Sitio Web de IA
+Bienvenido a Tu Sitio Web de IA. Una plataforma emocional que eleva testimonios invisibles en tiempo real. HTML • CSS • Firebase • ElevenLabs
+
 <!DOCTYPE html><html lang="es">
 <head>
   <meta charset="UTF-8">
