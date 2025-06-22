@@ -6,8 +6,8 @@
     <title>Página Personal de IA y YouTube</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
-        header { background: #333; color: #fff; padding: 10px 20px; text-align: center; }
-        section { margin: 20px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        header { background: #333; color: #fff; padding: 10 px 20 px; text-align: center; }
+        section { margin: 20 px; padding: 20 px; background: white; border-radius: 8 px; box-shadow: 0 2 px 5 px rgba (0,0,0,0.1); }
         footer { text-align: center; padding: 20px; background: #333; color: white; }
     </style>
 </head>
@@ -19,7 +19,7 @@
 
     <section>
         <h2>Sobre Mí</h2>
-        <p>Mi nombre es [John Jairo Montoya], y soy un apasionado de la inteligencia artificial y su aplicación en el procesamiento de contenido multimedia, especialmente videos. Este sitio web es un escaparate de mis proyectos y experimentos en este campo.</p>
+        <p>Mi nombre es John Jairo Montoya, y soy un apasionado de la inteligencia artificial y su aplicación en el procesamiento de contenido multimedia, especialmente videos. Este sitio web es un escaparate de mis proyectos y experimentos en este campo.</p>
     </section>
 
     <section>
@@ -27,9 +27,9 @@
         <p>Aquí hay algunos ejemplos de mi trabajo con la Inteligencia Artificial en la manipulación y análisis de videos de YouTube:</p>
         <ul>
             <li>Proyecto 1: Desarrollar contenido multimedia sobre todo videos 1</li>
-            <li>Proyecto 2: Interactuar con el público 2</li>
-            <li>Proyecto 3: Publicar contenido relacionado con la pobreza 3</li>
-            <li>Proyecto 4: Servir de plataforma social para los pobres 4<li>
+            <li>Proyecto 2: Interactuar con el público </li>
+            <li>Proyecto 3: Publicar contenido relacionado con la pobreza </li>
+            <li>Proyecto 4: Servir de plataforma social para los pobres <li>
             
         </ul>
     </section>
@@ -41,7 +41,7 @@
     </section>
 
     <footer>
-        <p>Derechos Reservados © [John Jairo] 2024</p>
+        <p>Derechos Reservados © [John Jairo Mntoya] 2024</p>
     </footer>
 </body>
 </html>
@@ -80,7 +80,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
+      margin: 20 px;
       background-color: #f9f9f9;
       color: #333;
       text-align: center;
@@ -190,8 +190,8 @@
     <form action="https://formspree.io/f/7JRM5V-XW059" method="POST">
       <input type="text" name="name" w="john jairo" required><br>
       <input type="email" name="email" ="johnmontoya.050@gmail.com " required><br>
-      <input type="url" name="enlace_video" placeholder=
-"https://youtube.com/shorts/Refy8t2G7pM?si=Y1nhhcVYosgd4KQH."><br>
+      <input type="url" name="enlace_video" placeholder=http
+"s://youtube.com/shorts/Refy8t2G7pM?si=Y1nhhcVYosgd4KQH."><br>
       <textarea name="mensaje" rows="4" placeholder="la pobreza y la desigualdad social se unen al avance tecnológico y a la inteligencia artificial por un futuro mejor para los pobres"></textarea><br>
       <button type="submit">Enviar</button>
     </form>
