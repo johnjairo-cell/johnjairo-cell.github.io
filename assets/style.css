@@ -1,0 +1,163 @@
+.timeline {
+  background: #fff;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.timeline-etapa {
+  border-left: 5px solid #2e3a59;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.timeline-etapa.pendiente {
+  opacity: 0.7;
+}
+
+.timeline-etapa h3 {
+  margin: 0;
+  color: #2e3a59;
+}
+
+.timeline-etapa p {
+  margin: 5px 0 0;
+}
+
+.badge {
+  background: #2e3a59;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  position: absolute;
+  left: -70px;
+  top: 2px;
+}
+
+.manifiesto-etico {
+  background: linear-gradient(to right, #2e3a59, #3f4d79);
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  font-style: italic;
+  border-top: 4px solid #f0c420;
+}
+
+.contenedor-manifiesto {
+  max-width: 700px;
+  margin: auto;
+}
+
+.icono-paloma {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.manifiesto-etico blockquote {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.7;
+}
+
+.manifiesto-etico {
+  background: #2e3a59;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  font-style: italic;
+  border-top: 4px solid #f0c420;
+  margin-top: 40px;
+}
+
+.contenedor-manifiesto {
+  max-width: 700px;
+  margin: auto;
+}
+
+.icono-paloma {
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.manifiesto-etico blockquote {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.7;
+}
+
+.manifiesto-etico footer {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-style: normal;
+  color: #f0f0f0;
+}
+
+.manifiesto-etico {
+  background: #2e3a59;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  font-style: italic;
+  border-top: 4px solid #f0c420;
+  margin-top: 40px;
+}
+
+.contenedor-manifiesto {
+  max-width: 700px;
+  margin: auto;
+}
+
+.icono-paloma {
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.manifiesto-etico blockquote {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.7;
+}
+
+.manifiesto-etico footer {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-style: normal;
+  color: #f0f0f0;
+}
+
+
+.manifiesto-etico footer {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-style: normal;
+  color: #f8f8f8;
+}
+
+.manifiesto-etico {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+@keyframes surgir {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.manifiesto-etico {
+  animation: surgir 1.4s ease-out;
+}
+
