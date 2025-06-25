@@ -15,6 +15,55 @@
     <h1>Voces Invisibles</h1>
     <p>Historias que merecen ser escuchadas</p>
   </div>
+  <!-- 🗺️ Botón para mostrar la hoja de ruta -->
+<button onclick="document.getElementById('hoja-ruta').classList.toggle('oculto')" style="margin:2rem auto; display:block;">
+  📋 Ver hoja de ruta del proyecto
+</button>
+
+<!-- 📋 Hoja de ruta interactiva -->
+<section id="hoja-ruta" class="oculto" style="background:#f9f9f9; color:#111; padding:2rem 1rem; font-family:'Inter',sans-serif;">
+  <h2 style="text-align:center;">🛠️ Hoja de Ruta – Voces Invisibles</h2>
+  
+  <div style="max-width:800px; margin:0 auto;">
+    
+    <h3>🎧 Producción de audio</h3>
+    <ul>
+      <li>🔲 Grabar audios para botones (3 frases por botón)</li>
+      <li>🔲 Narración de la frase final de la paloma</li>
+      <li>🔲 Crear voces para escenas y testimonios</li>
+    </ul>
+
+    <h3>📁 Estructura técnica</h3>
+    <ul>
+      <li>✅ Código JS para botones sonoros</li>
+      <li>✅ Modal de video al finalizar las frases</li>
+      <li>✅ Sello visual con nombre y país del colaborador</li>
+      <li>✅ Archivos de contribución en ES e inglés</li>
+      <li>🔲 Integrar audios al instalador automático</li>
+    </ul>
+
+    <h3>🖋️ Narrativa y contenido visual</h3>
+    <ul>
+      <li>✅ Escena final con paloma y frase simbólica</li>
+      <li>✅ Fragmento poético en el README</li>
+      <li>🔲 Visualización poética de nodos sonoros</li>
+      <li>🔲 Banner gráfico: “🕊️ Voz colaboradora”</li>
+    </ul>
+
+    <h3>🌍 Comunidad y colaboración</h3>
+    <ul>
+      <li>🔲 Habilitar formulario para subir voces sin GitHub</li>
+      <li>🔲 Activar convocatoria pública a narradores</li>
+      <li>🔲 Registrar nuevas voces en `COLABORADORES-SONOROS.md`</li>
+    </ul>
+  </div>
+</section>
+
+<style>
+.oculto { display: none; }
+ul li { margin: 0.4rem 0; }
+</style>
+
 </section>
 section {margin: 20 px; padding: 20 px; background: white; border-radius: 8 px; box-shadow: 0 2 px 5 px rgba (0,0,0,0.1);} footer {text-align: center; padding: 20 px; background: #333; color: white;} </style>
 Bienvenido a Tu Sitio Web de IA
@@ -386,6 +435,9 @@ function render Charts() {
   });
 }
 </script>
+<div class="sello-etico">
+  ✋🏽⚖️ <a href="LICENSE.md" target="_blank" title="Ver Licencia Ética">Licencia Ética</a>
+</div>
 </body>
 <div id="modal-video" class="modal oculto">
   <div class="modal-content">
