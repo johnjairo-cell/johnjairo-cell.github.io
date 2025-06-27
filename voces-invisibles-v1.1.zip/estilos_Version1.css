@@ -1,0 +1,114 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f6ff;
+  color: #27272a;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(124,58,237,0.10);
+  padding: 32px;
+}
+
+.impacto-metricas {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 32px;
+  gap: 20px;
+}
+
+.impacto-metricas div {
+  background: #7c3aed;
+  color: #fff;
+  border-radius: 12px;
+  padding: 16px 28px;
+  font-size: 1.2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(124,58,237,0.08);
+}
+
+#qr-video img {
+  margin: 16px 0 24px 0;
+  border-radius: 8px;
+  border: 3px solid #a78bfa;
+  background: #f3f0ff;
+}
+
+#sube-video {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+form {
+  background: #f3f0ff;
+  border-radius: 12px;
+  padding: 22px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+form input, form textarea {
+  border: 1px solid #a78bfa;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 1rem;
+  background: #fff;
+  resize: vertical;
+}
+
+form button {
+  background: #7c3aed;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 0;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+form button:hover {
+  background: #5b21b6;
+}
+
+.loader {
+  display: none;
+  border: 6px solid #f3f0ff;
+  border-top: 6px solid #7c3aed;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  animation: spin 1.1s linear infinite;
+  margin: 30px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
+
+.oculto {
+  display: none !important;
+}
+
+canvas {
+  margin: 28px auto 0 auto;
+  display: block;
+  max-width: 100%;
+  background: #f3f0ff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(124,58,237,0.10);
+}
+
+footer {
+  text-align: center;
+  margin: 40px 0 16px 0;
+  color: #a78bfa;
+  font-size: 1.1rem;
+}
