@@ -199,9 +199,9 @@ font-size: 0.9 em;
    <iframe width="315" height="560" src="https://www.youtube.com/embed/Refy8t2G7pM"
 title="Origen 2.0 # LaVozDeLaPobrezaIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-inpicture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe wisth="315" height="560" src="https://www.youtube.com/embed/NDwaXh-dE5E" title="La pobreza y la desigualdad social si tienen solución. #noticias #IAParaLosPobres#documental" frameborder="0" allow="accelerometer; autoplay; clipboard-white; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolycy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="315" height="560" src="https://www.com/embed/jLfbocn_BOY" 
-title="Activacion económica mundial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe src="https://www.bing.com/images/search? view=detailV2&ccid=ZRw0W5l%b&id=B039D5F9C48ECE71C29E8E" frameborder="0". allowfullscreen></
+<iframe width="315" height="560" src="https://www.youtube.com/https://www.youtube.com/watch?v=tlvoxNMfXU4"                      2 
+title="(33) Beneficios _Para_Los_Pobres #Youtube shorts #youtube #tutorial - YouTube.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="332" height="590" src="https://www.youtube.com/embed/G-GgbRNeBBs" title="Beneficios del espacio en la moneda nacional #tutorial #reels #documental #Youtube shorts #youtube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
    </div>
    </section>  
    <section id="participar">
@@ -435,9 +435,83 @@ function render Charts() {
   });
 }
 </script>
+ < audioList.length) {
+      const audio = new Audio(audioList[index]);
+      audio.play();
+      index++;
+<script>
+document.querySelectorAll(".btn-sonoro").forEach(boton => {
+  const audioSrc = boton.getAttribute("data-audio");
+  const audio = new Audio(audioSrc);
+  boton.addEventListener("mouseenter", () => {
+    audio.currentTime = 0;
+    audio.play();
+  });
+});
+</script>
+
+document.querySelectorAll('.btn-sonoro').forEach(boton => {
+  const audioList = JSON.parse(boton.dataset.audios || '[]');
+  const videoLink = boton.dataset.video || null;
+  let index = 0;
+
+  boton.addEventListener('click', () => {
+    if (index
+    } else if (videoLink) {
+      const modal = document.getElementById("modal-video");
+      const contenido = modal.querySelector(".modal-content");
+      contenido.innerHTML = `
+        <iframe width="100%" height="315" src="${videoLink}"
+        title="Video relacionado al botón sonoro" frameborder="0"
+        allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+      modal.classList.remove("oculto");
+      index = 0; // Reinicia para volver a jugar
+    }
+  });
+});
+</script>
+<!-- 🪟 Modal para mostrar el video después de las tres frases -->
+<div id="modal-video" class="modal oculto" style="position:fixed; top:0; left:0; width:100%; height:100%; background:#000000d0; display:flex; justify-content:center; align-items:center; z-index:1000;">
+  <div class="modal-content" style="width:90%; max-width:700px;"></div>
+</div>
+
+<script>
+// Permitir cerrar el modal haciendo clic fuera
+document.getElementById("modal-video").addEventListener("click", () => {
+  document.getElementById("modal-video").classList.add("oculto");
+});
+</script>
+<script>
+// 🌿 Cada botón tiene una secuencia de frases, como pétalos que se abren uno a uno
+document.querySelectorAll('.btn-sonoro').forEach(boton => {
+  const audioList = JSON.parse(boton.dataset.audios || '[]');
+  const videoLink = boton.dataset.video || null;
+  let index = 0;
+
+  boton.addEventListener('click', () => {
+    if (index < audioList.length) {
+      const audio = new Audio(audioList[index]);
+      audio.play();
+      index++;
+    } else if (videoLink) {
+      // 🌠 Cuando se han escuchado todas las frases, se abre la experiencia completa
+      const modal = document.getElementById("modal-video");
+      const contenido = modal.querySelector(".modal-content");
+      contenido.innerHTML = `
+        <iframe width="100%" height="315" src="${videoLink}" 
+        title="Video relacionado al botón sonoro" frameborder="0" 
+        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      `;
+      modal.classList.remove("oculto");
+      index = 0; // Reinicia para la próxima visita
+    }
+  });
+});
+  </script>
 <div class="sello-etico">
   ✋🏽⚖️ <a href="LICENSE.md" target="_blank" title="Ver Licencia Ética">Licencia Ética</a>
 </div>
+
 </body>
 <div id="modal-video" class="modal oculto">
   <div class="modal-content">
@@ -445,6 +519,54 @@ function render Charts() {
     <iframe id="iframe-video" src="" allowfullscreen></iframe>
   </div>
 </div>
+<!-- 🗺️ Botón para mostrar la hoja de ruta -->
+<button onclick="document.getElementById('hoja-ruta').classList.toggle('oculto')" style="margin:2rem auto; display:block;">
+  📋 Ver hoja de ruta del proyecto
+</button>
+
+<!-- 📋 Hoja de ruta interactiva -->
+<section id="hoja-ruta" class="oculto" style="background:#f9f9f9; color:#111; padding:2rem 1rem; font-family:'Inter',sans-serif;">
+  <h2 style="text-align:center;">🛠️ Hoja de Ruta – Voces Invisibles</h2>
+  
+  <div style="max-width:800px; margin:0 auto;">
+    
+    <h3>🎧 Producción de audio</h3>
+    <ul>
+      <li>🔲 Grabar audios para botones (3 frases por botón)</li>
+      <li>🔲 Narración de la frase final de la paloma</li>
+      <li>🔲 Crear voces para escenas y testimonios</li>
+    </ul>
+
+    <h3>📁 Estructura técnica</h3>
+    <ul>
+      <li>✅ Código JS para botones sonoros</li>
+      <li>✅ Modal de video al finalizar las frases</li>
+      <li>✅ Sello visual con nombre y país del colaborador</li>
+      <li>✅ Archivos de contribución en ES e inglés</li>
+      <li>🔲 Integrar audios al instalador automático</li>
+    </ul>
+
+    <h3>🖋️ Narrativa y contenido visual</h3>
+    <ul>
+      <li>✅ Escena final con paloma y frase simbólica</li>
+      <li>✅ Fragmento poético en el README</li>
+      <li>🔲 Visualización poética de nodos sonoros</li>
+      <li>🔲 Banner gráfico: “🕊️ Voz colaboradora”</li>
+    </ul>
+
+    <h3>🌍 Comunidad y colaboración</h3>
+    <ul>
+      <li>🔲 Habilitar formulario para subir voces sin GitHub</li>
+      <li>🔲 Activar convocatoria pública a narradores</li>
+      <li>🔲 Registrar nuevas voces en `COLABORADORES-SONOROS.md`</li>
+    </ul>
+  </div>
+</section>
+
+<style>
+.oculto { display: none; }
+ul li { margin: 0.4rem 0; }
+</style>
 
 </html>
 

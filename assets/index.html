@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voces Invisibles</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Voces Invisibles</h1>
+    <p>Historias que merecen ser escuchadas</p>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Historias</a>
+    <a href="#">¿Cómo participar?</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <section class="hero-banner">
+    <img src="assets/img/banner.jpg" alt="Banner Voces Invisibles">
+    <div class="texto-banner">
+      <h1>Haz visible lo invisible</h1>
+      <p>Comparte tu historia en video</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Historias reales</h2>
+    <div class="video-grid">
+      <iframe src="https://www.youtube.com/embed/Refy8t2G7pM" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/NDwaXh-dE5E" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/jLfbocn_BOY" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section>
+    <h2>¿Cómo puedes participar?</h2>
+    <ol>
+      <li>Graba un video contando tu historia o la de tu comunidad.</li>
+      <li>Súbelo a YouTube o Google Drive.</li>
+      <li>Llena el formulario para compartirlo con nosotros.</li>
+    </ol>
+    <p><a href="#">Enviar video</a></p>
+  </section>
+
+  <section id="impacto">
+    <h2>Impacto de Voces Invisibles</h2>
+    <div class="impacto-metricas">
+      <div><strong id="total-count">0</strong><br>Voces compartidas</div>
+      <div><strong id="aprobados-count">0</strong><br>Aprobadas</div>
+      <div><strong id="pendientes-count">0</strong><br>Pendientes</div>
+      <div><strong id="paises-count">0</strong><br>Países distintos</div>
+    </div>
+    <canvas id="grafico-estado"></canvas>
+    <canvas id="grafico-paises"></canvas>
+  </section>
+
+  <footer>
+    <p>Correo: vocesinvisibles@email.com | Instagram & TikTok: @vocesinvisibles</p>
+    <p>Hecho con 💜 desde las voces olvidadas | © Voces Invisibles 2025</p>
+  </footer>
+
+  <script type="module" src="assets/js/firebase.js"></script>
+</body>
+</html>
