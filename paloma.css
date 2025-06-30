@@ -1,0 +1,39 @@
+/* Estilo base de la paloma */
+.paloma {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: auto;
+  opacity: 0;
+  animation: aparecerPaloma 3s ease-out forwards, flotacion 5s ease-in-out infinite;
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* Brillo suave */
+.paloma img {
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.8));
+}
+
+/* Animación de aparición */
+@keyframes aparecerPaloma {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Movimiento flotante continuo */
+@keyframes flotacion {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
