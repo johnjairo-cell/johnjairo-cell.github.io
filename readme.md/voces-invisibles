@@ -1,0 +1,40 @@
+# ✨ Voces Invisibles
+
+**Versión**: `v1.1.1-final`  
+**Proyecto de impacto social y narrativo**  
+[![Licencia Ética](https://img.shields.io/badge/Licencia-Ética-informational)](LICENSE.md)
+
+---
+
+## 📖 Descripción
+*Voces Invisibles* es una plataforma interactiva y participativa que amplifica los relatos de personas marginadas a través de tecnologías accesibles, visuales y sonoras. Cada elemento está diseñado para despertar empatía, promover el diálogo y generar conciencia sobre la pobreza desde una perspectiva humana y digna.
+![Interfaz animada de Voces Invisibles](./assets/voces-demo.gif)
+---
+
+## 🛠️ Tecnologías
+
+- HTML, CSS, JavaScript
+- Firebase (Firestore, Hosting)
+- Animaciones y transiciones con CSS
+- Narración con voz (integración exploratoria con ElevenLabs)
+- Visualización con Chart.js y timeline dinámico
+
+---
+
+## 🧩 Funcionalidades clave
+
+- 📬 Formulario participativo para recibir testimonios reales
+- 🕊️ Animación simbólica: *la paloma luminosa*
+- 🎼 Transiciones sonoras que acompañan los relatos
+- 📅 Línea del tiempo con evolución del proyecto
+- ⚖️ Licencia Ética para proteger la integridad del contenido
+- 🧑‍🤝‍🧑 Espacios públicos y privados diferenciados
+
+---
+
+## 🚀 Cómo usar
+
+1. Clona el proyecto:
+   ```bash
+   git clone https://github.com/johnjairo-cell/voces-invisibles.git
+   cd voces-invisibles
