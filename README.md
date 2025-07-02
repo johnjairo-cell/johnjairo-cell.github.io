@@ -1,3 +1,70 @@
+# 👋 ¡Hola, soy John Jairo!
+
+¡Bienvenido a mi perfil de GitHub!
+
+---
+
+### 🏗️ Trayectoria
+
+Durante la mayor parte de mi vida me dediqué al trabajo en la construcción, acumulando años de experiencia y aprendizaje. Tengo 60 años de edad y siempre he buscado crecer y reinventarme.
+
+- 📚 Estudié 6 semestres de Electrónica.
+- 🎓 Realicé un postgrado en Gerencia Empresarial.
+- 🤝 Fui presidente de una asociación sin ánimo de lucro en Pereira, Colombia.
+
+---
+
+### 💻 Lo que hago hoy
+
+Actualmente me dedico a la **reparación de computadores portátiles y pantallas de televisión**, brindando soluciones tecnológicas a quienes más lo necesitan.
+
+En mis ratos libres, creo **videos de esperanza y motivación** para los pobres en redes sociales, con el objetivo de inspirar y dar un mensaje de fe y superación.
+
+---
+
+### 🚀 Mi nuevo emprendimiento
+
+Estoy comenzando un proyecto de aprendizaje y emprendimiento en **HTML** y **tecnologías web**, guiado por la inteligencia artificial. Mi meta es:
+
+- Crear una página web dedicada a personas en situación de pobreza.
+- Incluirlas en el avance tecnológico y acercarlas a la inteligencia artificial.
+- Compartir recursos, oportunidades y mensajes de esperanza.
+
+---
+
+## 🌟 Proyecto destacado: Voces Invisibles
+
+**Voces Invisibles** es una plataforma creada para los pobres. A través de ella, podrán expresar su condición de vida con videos y mostrarle al mundo la realidad de la pobreza en tiempo real.  
+Es una plataforma sin ánimo de lucro pero con un gran propósito de avance social.
+
+- El proyecto está disponible en mi repositorio, empaquetado en `setup.zip`.
+- Próximamente haré unos ajustes finales para llevarla a su versión release.
+
+> **Voces Invisibles** busca dar voz a quienes normalmente no son escuchados. Si quieres colaborar, ¡eres bienvenido!
+
+---
+
+### 🎥 Mis redes y contenido
+
+- **TikTok:** [@johnmontoya529](https://www.tiktok.com/@johnmontoya529)
+- **Facebook:** [Perfil de John Jairo](https://www.facebook.com/profile.PhP?id=61573967919604)
+- También comparto contenido en YouTube e Instagram, usando herramientas como TikTok y CapCut para editar y difundir mensajes de esperanza.
+
+---
+
+### 🌱 Siempre aprendiendo
+
+Creo firmemente que nunca es tarde para aprender algo nuevo y ayudar a los demás. Mi propósito es **usar la tecnología como herramienta para la inclusión, el servicio y la esperanza**.
+
+---
+
+### 📫 ¿Quieres contactarme o colaborar?
+
+¡Estoy abierto a conectar con personas y organizaciones que compartan el deseo de ayudar y transformar vidas a través de la tecnología y la solidaridad!
+
+---
+
+> "La esperanza y el conocimiento pueden cambiar vidas, especialmente cuando se comparten."
 ![Banner Voces Invisibles](assets/img/banner.jpg)
 [![⬇️ Descargar v1.1.1-final](https://img.shields.io/badge/Descargar-v1.1.1--final-blue?style=flat-square)](https://github.com/johnjairo-cell/johnjairo-cell.github.io/releases/download/manifiesto-vivo-v1.1.1-final/voces-invisibles-v1.1.1-final.zip)
 
