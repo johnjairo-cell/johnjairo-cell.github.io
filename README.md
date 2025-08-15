@@ -1,203 +1,60 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Personal de IA y YouTube</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
-        header { background: #333; color: #fff; padding: 10 px 20 px; text-align: center; }
-        section { margin: 20 px; padding: 20 px; background: white; border-radius: 8 px; box-shadow: 0 2 px 5 px rgba (0,0,0,0.1); }
-        footer { text-align: center; padding: 20 px; background: #333; color: white; }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Bienvenido a Mi Sitio Web de IA</h1>
-        <p>Explorando la interacción con videos de YouTube mediante Inteligencia Artificial</p>
-    </header>
+# 🌎 Voces Invisibles
 
-    <section>
-        <h2>Sobre Mí</h2>
-        <p>Mi nombre es John Jairo Montoya, y soy un apasionado de la inteligencia artificial y su aplicación en el procesamiento de contenido multimedia, especialmente videos. Este sitio web es un escaparate de mis proyectos y experimentos en este campo.</p>
-    </section>
+**Una plataforma digital que hace visibles las historias que muchos prefieren ignorar.**  
+ Sube tú vídeo relacionado con la pobreza, nombra en ellos los acontesimientos mas relebantes y frustrantes de la vida diariaria de los pobres. Puedes explicar en ellos los medios y las dificultades precentes para conseguir su alimentacion, vestuaririo, educación y atencióm médica etc. Ésta es una plataforma que servirá de soporte para los pobres con atención inicial a los más desfavorecidos, esta orientada  a erradicar la desigualdad, la pobreza y la injusticia social social a travéz del empléo. No necesitamos coloboradores que regalen su trabajo, trabajamos para unir a los pobres con la tecnologia y la inteligencia artificial generando empléo permanente para todos. únete si eres un Lider social, un Defensor de los Derchos Humanos, un desarrollador y/o creador de contenido web, un Presidente de Junta directiva sin animos de lucro, un trabajador independiente. y todo aquel que quiera tabajar para su propio beneficio y ayudar a los pobres con su trabajo. ¡UNIDOS ALCANSAMOS LA IGUALDAD Y LA JUSTICIA SOCIAL!
 
-    <section>
-        <h2>Proyectos</h2>
-        <p>Aquí hay algunos ejemplos de mi trabajo con la Inteligencia Artificial en la manipulación y análisis de videos de YouTube:</p>
-        <ul>
-            <li>Proyecto 1: Desarrollar contenido multimedia sobre todo videos</li>
-            <li>Proyecto 2: Interactuar con el público </li>
-            <li>Proyecto 3: Publicar contenido relacionado con la pobreza</li>
-            <li>Proyecto 4: Servir de plataforma social para los pobres</li>
-            
-        </ul>
-    </section>
-
-    <section>
-        <h2>Contacto</h2>
-        <p>Si estás interesado en aprender más sobre mi trabajo o colaborar en en servicio a la comunidad en cualquier proyecto. no dudes en contactarme.</p>
-        <p>Email: johnmontoya.050@gmail.com</p>
-    </section>
-
-    <footer>
-        <p>Derechos Reservados © John Jairo 2024</p>
-    </footer>
-</body>
-</html>
-
-
---- 
-<section id="intro">
-  <h1>¿Qué es este proyecto?</h1>
-  <p>La inteligencia artificial está transformando el mundo. Pero su impacto no es igual para todos. Esta página es una iniciativa para visibilizar cómo la IA afecta a las poblaciones más pobres, y cómo podemos crear conciencia y soluciones reales.</p>
-  <video controls width="100%">
-    <source src="videos/intro.mp4" type="video/mp4">
-    Tu navegador no soporta la reproducción de video.
-  </video>
-</section>
-
-<section id="participa">
-  <h2>Comparte tu realidad</h2>
-  <p>Invitamos a personas de todo el mundo a grabar y enviar videos mostrando la realidad de la pobreza en sus comunidades. Queremos ver lo que los medios no muestran.</p>
-  <p>¿Qué puedes grabar?</p>
-  <ul>
-    <li>Condiciones de vida actuales</li>
-    <li>Dificultades para acceder a tecnología o educación</li>
-    <li>Historias personales frente al avance tecnológico</li>
-  </ul>
-  <p>Envíanos tu video a: <a href="mailto: johnmontoya.050@gmail.com">johnmontoya.050@gmail.com</a> o súbelo a redes con el hashtag <strong>#VozDeLaPobrezaIA</strong>.</p>
-</section>
-
+Este proyecto es Impulsado por HTML, CSS, Firebase y narración emocional, *Voces Invisibles* amplifica testimonios reales sobre la pobreza, creando un puente entre la empatía y la acción. No es una propuesta politica ni hay asociaciones con ellos, sabemos que la fuerza del pueblo esta en sú trábajo.
 
 ---
-!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Video - Realidad y Tecnología</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      background-color: #f9f9f9;
-      color: #333;
-      text-align: center;
-    }
 
-    iframe {
-      max-width: 100%;
-      border-radius: 12px;
-      margin-bottom: 20px;
-    }
+## 🎯 Propósito
 
-    .cta-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      margin-bottom: 30px;
-    }
+Dar voz a personas que viven en condiciones de pobreza, permitiéndoles compartir sus historias a través de video, gráficos interactivos y métricas en tiempo real.
 
-    .cta-buttons a {
-      text-decoration: none;
-      padding: 12px 20px;
-      border-radius: 25px;
-      background-color: #0057ff;
-      color: white;
-      font-weight: bold;
-      transition: background-color 0.3s;
-    }
+---
 
-    .cta-buttons a:hover {
-      background-color: #003fba;
-    }
+## 🛠️ Tecnologías utilizadas
 
-    .hashtags {
-      font-size: 16px;
-      margin-top: 20px;
-      color: #666;
-    }
+- HTML + CSS
+- Firebase Realtime Database
+- JavaScript (ES Modules)
+- Chart.js
+- Diseño responsive y multimedia
 
-    form input, form textarea {
-      width: 80%;
-      max-width: 500px;
-      padding: 10px;
-      margin: 10px auto;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-    }
+---
 
-    form button {
-      padding: 12px 25px;
-      background-color: #28a745;
-      color: white;
-      border: none;
-      border-radius: 25px;
-      font-weight: bold;
-      cursor: pointer;
-    }
+## 🚀 Sitio en línea
 
-    form button:hover {
-      background-color: #218838;
-    }
+👉 [Accede a la plataforma aquí](https://johnjairo-cell.github.io)
 
-    section {
-      margin-top: 40px;
-    }
-  </style>
-</head>
-<body>
+---
 
-  <h1>La Realidad de la Tecnología para los Más Pobres</h1>
+## 👥 ¿Cómo participar?
 
-  <!-- Video de YouTube -->
-  <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/Refy8t2G7pM" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
+1. Graba tu testimonio o el de tu comunidad.
+2. Sube el video a YouTube o Google Drive.
 
-  <!-- Botones de llamada a la acción -->
-  <div class="cta-buttons">
-    <a href="#compartir">Comparte</a>
-    <a href="#sube-video">Sube tu video</a>
-    <a href="#mas-videos">Más videos</a>
-    <a href="#apoya">Apoya esta causa</a>
-  </div>
+> Hecho con 💜 desde las voces olvidadas.  
+> Proyecto sin fines de lucro — JOHN JAIRO MONTOYA, 2025.
 
-  <!-- Hashtags sugeridos -->
-  <div class="hashtags">
-    Usa estos hashtags al compartir:  
-    <br>
-    <strong>#IAparaLosPobres #TecnologíaJusta #HumanidadDigital #VocesDelSur</strong>
-  </div>
+| Versión | Nombre                     | Estado       | Descripción breve                                                   |
+|---------|--------------------------|--------------|-----------------------------------------------------------------------|
+| `v1.0`  | Estructura sólida        | ✅ Publicada  | HTML + CSS + Firebase + visualización en tiempo real.        |
+| `v1.1`  | Participativa            | ✅ Publicada  | Formulario para enviar testimonios directamente desde la plataforma.|
+| `v2.0`  | Narrativa expandida        | ⏳ En diseño  | Audio narrado, accesibilidad y guía emocional para visitantes.      |  
+| `v2.1`  | Animaciones simbólicas     | 🕊️ Planeada   | Paloma animada, transiciones suaves y metáforas visuales.           |
+| `v2.2`  | Voces habladas             | 🎙️ Planeada   | Narración con voz real desde ElevenLabs para testimonios aprobados. |
+| `v3.0`  | Multilingüe global         | 🌍 En visión  | Selector de idioma (es/en), alcance internacional.                 |
 
-  <!-- Código QR del video -->
-  <section id="qr-video">
-    <h2>Escanea el código QR para ver el video</h2>
-    <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://youtube.com/shorts/Refy8t2G7pM?si=Y1nhhcVYosgd4KQH&size=250x250" 
-         alt="QR del video en YouTube" width="250" height="250">
-  </section>
-
-  <!-- Formulario para subir video -->
-  <section id="sube-video">
-    <h2>Sube tu video</h2>
-    <p>Comparte tu realidad o mensaje relacionado con la inteligencia artificial y la pobreza.</p>
-    <form action="https://formspree.io/f/7JRM5V-XW059" method="POST">
-      <input type="text" name="name" w="john jairo montoya" required><br>
-      <input type="email" name="email" ="johnmontoya.050@gmail.com " required><br>
-      <input type="url" name="enlace_video" placeholder=
-"https://youtube.com/shorts/Refy8t2G7pM?si=Y1nhhcVYosgd4KQH."><br>
-      <textarea name="mensaje" rows="4" placeholder="la pobreza y la desigualdad social se unen al avance tecnológico y a la inteligencia artificial por un futuro mejor para los pobres"></textarea><br>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
-
-</body>
-</html>
-
-
+| Versión                  | Nombre simbólico        | Estado        | Enfoque principal                  |
+| `v1.0.0`                 | Fundación               | ✅ Completada | Estructura base: HTML, CSS, Firebase             |
+| `v1.1.0`                 | Participativa           | ✅ Completada | Formulario de testimonios                        |
+| `v1.1.1-final`           | Manifiesto Vivo         | ✅ Completada | Frase ética animada, línea de tiempo             |
+| `v1.2.0` *(próxima)*     | Voces Narradas          | 🛠 En progreso| Integración de voz narrada (con ElevenLabs)      |
+| `v2.0.0` *(futura)*      | Comunión Digital        | 🔮 Planeada   | Accesibilidad
+| Versión                  | Nombre narrativo        | Estado       | Enfoque principal                                            |
+| `v1.0.0`                 | Fundación                | ✅ Completada | Base HTML, Firebase, métricas iniciales                         |
+| `v1.1.0`                | Participativa            | ✅ Completada | Testimonios enviados por usuarios     |
+| `v1.1.1-final`          | Manifiesto Vivo          | ✅ Completada | Frase sagrada + animación ética           |
+| `v1.2.0` *(próxima)*    | Voces Narradas           | 🛠 En progreso| Audio-narración real con ElevenLabs       |
+| `v2.0.0` *(futura)*     | Comunión Digital         | 🔮 Planeada   | Accesibilidad total y resonancia multimedia expandida   |
