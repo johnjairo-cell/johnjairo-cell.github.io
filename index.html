@@ -1,572 +1,122 @@
-<title>Página Personal de IA y YouTube</title>
-<style> body {font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333;} header {background: #333; color: #fff; padding: 10 px 20 px; text-align: center;} .hero-banner {
-  width: 100 %;
-  max-height: 400 px;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f8f4f0;
-}
+<!--informa al nabegador que usamos html 5 --><!DOCTYPE html>
+<!-- Define que el idioma principal es español -->
+<html lang="es"><head>
+  <!-- permite que se muestren acentos, ñ y caracteres especiales -->  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título visible en la pestaña del navegador -->
+  <title>Voces Invisibles</title>  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap"    rel="stylesheets">
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-analytics.js"></script>
+  <audio autoplay preload="auto">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheets" href="assets/styles.css">
+    <source src="assets/piano-mystery-tense-cinematic-drone-loop-335499.mp3" type="audio/mpeg"> </audio> <style>
+    body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0;
+      background-color: #f8f4f0; color: #333; } header {
+      background-color: #2e3a59;
+      color: #fff; padding: 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2em; }
+   nav { background-color: #1d263b; display: flex; justify-content: center; gap: 20px; padding: 10px 0; }
+   nav a { color: #fff; text-decoration: none; font-weight: bold; } 
+      section { padding: 40px 20px; max-width: 900px; margin: auto; }
+    .hero { text-align: center; padding: 40px 20px; }
+    .hero h2 { font-size: 1.8em; }
+    .video-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    iframe {
+      width: 100%;
+      height: 200px;} footer {
+      background-color: #2e3a59;
+      color: white; text-align: center; padding: 20px;
+      font-size: 0.9em; }
+  </style></head><body>
+  <header> <section class="hero-banner">
+  <img src="assets/img/banner-voces.png" alt="Banner Voces Invisibles"> </section>
+<div class="paloma">  <img src="paloma-blanca.png" alt="Paloma símbolo de Voces Invisibles"></div>
+    <img src="assets/img/channels4_banner.jpg" alt="Banner Voces Invisibles" width="100%">
+    <h1 style="text-align:center; color:#7c3aed;">?? Comparte tu voz Hasla visible.</h1>
+    <audio autoplay preload="auto">
+      <source src="assets/tense-suspense-background-music-30-seconds-version-320446.mp3" type="audio/mpeg">
+    </audio>    <h1>Voces Invisibles</h1>
+    <p>Mostrando al mundo la realidad de la pobreza</p>
 
-<section class="hero-banner">
-  <img src="assets/img/banner-voces.png" alt="Banner Voces Invisibles">
-  <div class="texto-banner">
-    <h1>Voces Invisibles</h1>
-    <p>Historias que merecen ser escuchadas</p>
-  </div>
-  <!-- 🗺️ Botón para mostrar la hoja de ruta -->
-<button onclick="document.getElementById('hoja-ruta').classList.toggle('oculto')" style="margin:2rem auto; display:block;">
-  📋 Ver hoja de ruta del proyecto
-</button>
+    <script>
+      const audio = document.querySelector("audio");
+      const intro = document.querySelector(".intro-overlay");
+      if (audio && intro) {
+        audio.addEventListener("ended", () => {
+          intro.classList.add("closing");       }); }
+    </script>
+  </header>  <nav>
+    <!-- Comparte tus historias --><a href="#inicio">Inicio</a><a href="#historias">Historias</a> <a href="#participar">¿Cómo Participar?</a>
+    <a href="#contacto">Contacto Para compartir</a>
+  </nav>
+  <section class="hero" id="inicio"> <h2>Haz visible lo invisible. Comparte tu historia en video.</h2>
+    <p>Este es un espacio para las personas que viven en pobreza puedan compartir
+      sus testimonios en tiempo real con todo el mundo.</p><a 
+          href="#participar"><button>Enviar mi video</button></a>
+  </section>
 
-<!-- 📋 Hoja de ruta interactiva -->
-<section id="hoja-ruta" class="oculto" style="background:#f9f9f9; color:#111; padding:2rem 1rem; font-family:'Inter',sans-serif;">
-  <h2 style="text-align:center;">🛠️ Hoja de Ruta – Voces Invisibles</h2>
-  
-  <div style="max-width:800px; margin:0 auto;">
-    
-    <h3>🎧 Producción de audio</h3>
-    <ul>
-      <li>🔲 Grabar audios para botones (3 frases por botón)</li>
-      <li>🔲 Narración de la frase final de la paloma</li>
-      <li>🔲 Crear voces para escenas y testimonios</li>
-    </ul>
+  <section id="intro">
+    <h2>Historias reales</h2>
+    <div class="video-grid">
+      <iframe src="https://www.youtube.com/embed/jLfbocn_BOY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Refy8t2G7pM" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/NDwaXh-dE5E" frameborder="0" allowfullscreen></iframe>
+  </section>
 
-    <h3>📁 Estructura técnica</h3>
-    <ul>
-      <li>✅ Código JS para botones sonoros</li>
-      <li>✅ Modal de video al finalizar las frases</li>
-      <li>✅ Sello visual con nombre y país del colaborador</li>
-      <li>✅ Archivos de contribución en ES e inglés</li>
-      <li>🔲 Integrar audios al instalador automático</li>
-    </ul>
+  <section id="participar">
+    <p>¡Unete!, Necesitamos coloboradores que les apaciona su trabajo. Pagamos su lavor para unir a los
+      pobres y trabajadores con la tecnologia y la inteligencia artificial generando empléo permanente
+      para todos. ¡únete! si eres un Defensor de los Derchos Hunanos, un Actibista, un Abogado, un
+      Empresario, un presidente de una asociación sin animos de lucro, un trabajador ambulante o un
+      albañil, un Desarrollador, o un creador de contenido web, etc. Si éstas interesado en trabajar
+      para tú propio beneficio y ayudar a los pobres con tu trabajo éste sitio es tu cuna y tu hogar.</p>
+    <h2>¿Cómo puedes participar?</h2>
+    <p>1º. Graba un video contando tu historia o la de tu comunidad.<br>
+      2º. Súbelo a YouTube o Google Drive.<br>
+      3º. Escribenos al correo johnmontoya.050@gmail.com
+      4º. Llena este formulario para compartirlo con nosotros: 
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfq3fimtnX6Bce64-GyFZaVpBXxG5x7B9pFhGsG0g4hQEspZZYA/viewform?usp=header"
+        target="_blank">Enviar video</a></p>
+  </section>  <section id="contacto">
+    <h2>?? Contacto</h2>
+    <p>Email: vocesinvisibles@email.com</p>
+    <p>Instagram / TikTok:<strong><strong>@vocesinvisibles</strong>
+        <p>Email: johnmontoya.050@gmail.com</p>
+  </section>
+  <img src="img/dove.png" alt="Paloma" class="paloma">
+  <p>La inteligencia artificial está transformando el mundo. Pero su impacto no es igual para todos. Esta página es una
+    iniciativa para visibilizar cómo la IA afecta a las poblaciones más pobres, y cómo podemos crear conciencia y
+    soluciones reales.</p>
 
-    <h3>🖋️ Narrativa y contenido visual</h3>
-    <ul>
-      <li>✅ Escena final con paloma y frase simbólica</li>
-      <li>✅ Fragmento poético en el README</li>
-      <li>🔲 Visualización poética de nodos sonoros</li>
-      <li>🔲 Banner gráfico: “🕊️ Voz colaboradora”</li>
-    </ul>
+  <div class="intro-content">
+    <h2 class="typing">Haz visible lo invisible.</h2>
+    <p>Cada historia merece ser escuchada. Gracias por estar aquí.</p>
+    <object type="image/svg+xml" data="assets/svg/paloma.svg" class="svg-paloma"></object>
+    </section>
 
-    <h3>🌍 Comunidad y colaboración</h3>
-    <ul>
-      <li>🔲 Habilitar formulario para subir voces sin GitHub</li>
-      <li>🔲 Activar convocatoria pública a narradores</li>
-      <li>🔲 Registrar nuevas voces en `COLABORADORES-SONOROS.md`</li>
-    </ul>
-  </div>
-</section>
+    <section id="historias">
+      <h2>Historias reales</h2>
+      <div class="video-grid">
+        <width="315" height="560" src="https://www.youtube.com/video/-bvAa305w4s"
+          title="Origen 2.0 # LaVozDeLaPobrezaIA" frameborder="0" allowfullscreen></iframe>
 
-<style>
-.oculto { display: none; }
-ul li { margin: 0.4rem 0; }
-</style>
+          <iframe width="315" height="560" src="https://www.youtube.com/embed/PaHh9pKmf9s"
+            title="voces invisibles #alien #vocesinvisibles" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
 
-</section>
-section {margin: 20 px; padding: 20 px; background: white; border-radius: 8 px; box-shadow: 0 2 px 5 px rgba (0,0,0,0.1);} footer {text-align: center; padding: 20 px; background: #333; color: white;} </style>
-Bienvenido a Tu Sitio Web de IA
-<!DOCTYPE html><html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Voces Invisibles</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="stilos.css">
-  <style>
-body {
- font-family: 'Roboto', sans-serif;
- margin: 0;
- padding: 0;
-      background-color: #f8f4f0;
-      color: #333;
-}
-header {
-background-color: #2e3a59;
-color: #fff;
-padding: 20 px;
-text-align: center;
-}
-header h1 {
-margin: 0;
-font-size: 2 em;
-}
-nav {
-background-color: #1d263b;
-display: flex;
-justify-content: center;
-gap: 20 px;
-padding: 10 px 0;
-}
-nav a {
-color: #fff;
-text-decoration: none;
-font-weight: bold;
-}
-section {
-padding: 40 px 20 px;
-max-width: 900 px;
-margin: auto;
-}
-.hero {
-text-align: center;
-padding: 40 px 20 px;
-}
-.hero h2 {
-font-size: 1.8 em;
-}
-.video-grid {
-display: grid;
-grid-template-columns: repeat (auto-fit, minmax (300 px, 1 fr));
-gap: 20 px;
-}
-iframe {
-width: 100 %;
-height: 200 px;
-}
-footer {
-background-color: #2e3a59;
-color: white;
-text-align: center;
-padding: 20 px;
-font-size: 0.9 em;
-} .hero-banner {
-  position: relative;
-  width: 100 %;
-  max-height: 400 px;
-  overflow: hidden;
-  background-color: #f8f4f0;
-}
-
-.hero-banner img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-}
-
-.texto-banner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff;
-  background-color: rgba(46, 58, 89, 0.6); /* fondo oscuro semitransparente */
-  padding: 20px 40px;
-  border-radius: 10px;
-}
-
-.texto-banner h1 {
-  font-size: 2.5rem;
-  margin: 0 0 10px;
-  font-weight: bold;
-}
-
-.texto-banner p {
-  font-size: 1.2rem;
-  margin: 0;
-  font-style: italic;
-}
-
-</style>
-</head>
-<body>
-<header> <section class="hero-banner">
-  <img src="assets/img/banner-voces.png" alt="Banner Voces Invisibles">
-</section>
-<div class="paloma">
-  <img src="paloma-blanca.png" alt="Paloma símbolo de Voces Invisibles">
-</div>
-   <h1>Voces Invisibles</h1>
-  <p>Mostrando al mundo la realidad de la pobreza</p>
-</header>
-  <nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#historias">Historias</a>
-    <a href="#participar">¿Cómo Participar?</a>
-    <a href="#contacto">Contacto</a>
-  </nav>  
-    <section class="hero" id="inicio">
-    <h2>Haz visible lo invisible. Comparte tu historia en video.</h2>
-    <p>Este es un espacio para que las personas que viven en pobreza puedan compartir sus testimonios reales con el mundo.</p>
-<a href="#participar"><button>Enviar mi video</button></a>
-</section>  
-<section id="historias">
-   <h2>Historias reales</h2>
-   <div class="video-grid">
-   <iframe width="315" height="560" src="https://www.youtube.com/embed/Refy8t2G7pM"
-title="Origen 2.0 # LaVozDeLaPobrezaIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-inpicture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe wisth="315" height="560" src="https://www.youtube.com/embed/NDwaXh-dE5E" title="La pobreza y la desigualdad social si tienen solución. #noticias #IAParaLosPobres#documental" frameborder="0" allow="accelerometer; autoplay; clipboard-white; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolycy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="315" height="560" src="https://www.youtube.com/https://www.youtube.com/watch?v=tlvoxNMfXU4"                      2 
-title="(33) Beneficios _Para_Los_Pobres #Youtube shorts #youtube #tutorial - YouTube.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="332" height="590" src="https://www.youtube.com/embed/G-GgbRNeBBs" title="Beneficios del espacio en la moneda nacional #tutorial #reels #documental #Youtube shorts #youtube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-   </div>
-   </section>  
-   <section id="participar">
-   <h2>¿Cómo puedes participar?</h2>
-   <p>1. Graba un video contando tu historia o la de tu comunidad.<br>
-      2. Súbelo a YouTube o Google Drive.<br>
-      3. Llena este formulario para compartirlo con nosotros: <a href="https://docs.google.com/forms/d/1X7qGVHDeL8_ZF6WuyoaRV9aqsxNsBhR7NerkzSqJZ7w/edit" target="_blank">Enviar video</a></p>
-  </section>  
-  <section id="contacto">
-  <h2>Contacto</h2>
-  <p>Correo: vocesinvisibles@email.com<br>
-Instagram: @vocesinvisibles<br>
-TikTok: @vocesinvisibles</p>
-</section>  
-<footer>
-<p>&copy; 2025 Voces Invisibles. Proyecto social sin fines de lucro John Jairo Montoya.</p></footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Impacto | Voces Invisibles</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f8f4f0;
-      margin: 0;
-      color: #333;
-    }
-
-    header {
-      background: #2e3a59;
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0 0 10px;
-      font-size: 2.4rem;
-    }
-
-    section {
-      max-width: 1000px;
-      margin: 30px auto;
-      padding: 20px;
-    }
-
-    .impacto-metricas {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      text-align: center;
-      gap: 20px;
-      margin-bottom: 40px;
-    }
-
-    .impacto-metricas div {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      flex: 1;
-      min-width: 200px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-
-    canvas {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-      margin-bottom: 40px;
-    }
-
-    footer {
-      background: #2e3a59;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-
-<header>
-  <h1>Impacto de Voces Invisibles</h1>
-  <p>Más de <strong id="total-count">0</strong> voces compartidas desde toda Latinoamérica.</p>
-</header>
-
-<section>
-  <div class="impacto-metricas">
-    <div><strong>Aprobados</strong><br><span id="aprobados-count">0</span></div>
-    <div><strong>Pendientes</strong><br><span id="pendientes-count">0</span></div>
-    <div><strong>Países distintos</strong><br><span id="paises-count">0</span></div>
-  </div>
-
-  <canvas id="grafico-estado"></canvas>
-  <canvas id="grafico-paises"></canvas>
-</section>
-
-<footer>
-  Hecho con 💜 desde las voces olvidadas | © Voces Invisibles 2025
-</footer>
-
-<!-- Firebase + Chart logic -->
-<script type="module"> // Frase del día function seleccionar FraseAleatoria(snapshot) { const frases = [];
-// Modal de video
-tarjeta.onclick = () => abrirVideo(d.video);
-const modal = document.getElementById("modal-video");
-tarjeta.onclick = () => abrirVideo(d.video);
-  const iframe = document.getElementById("iframe-video");
-tarjeta.onclick = () => abrirVideo(d.video);
-  const cerrar = document.getElementById("cerrar-modal");
-
-cerrar.onclick = () => {
-  modal.classList.add("oculto");
-  iframe.src = "";
-};
-
-window.abrirVideo = function (url) {
-  iframe.src = url;
-  modal.classList.remove("oculto");
-};
-
-  snapshot.forEach(child => { constdata = child.val(); 
-if (data.aprobado && data.mensaje) {
-      frases.push(data.mensaje);
-    }
-  });
-
-  if (frases.length) {
-    const frase = frases[Math.floor(Math.random() * frases.length)];
-    document.getElementById("texto-frase").textContent = `“${frase}”`;
-  } else {
-    document.getElementById("texto-frase").textContent = "Todavía no hay testimonios aprobados.";
-  }
-}
-
-// Llama la función después del snapshot
-onValue(ref(db, "testimonios/"), snapshot => {
-  // ... código de conteo y gráficos ...
-  seleccionarFraseAleatoria(snapshot);
-});
-
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
-
-const firebaseConfig = {
-  // Coloca aquí tu configuración de Firebase
-
-};
-
-const app = initializeApp(firebaseConfig);
-const db = getDatabase(app);
-
-  const totalSpan = document.getElementById("total-count");
-const aprobadosSpan = document.getElementById("aprobados-count");
-const pendientesSpan = document.getElementById("pendientes-count");
-const paisesSpan = document.getElementById("paises-count");
-
-const paisesMap = new Map();
-let total = 0, aprobados = 0, pendientes = 0;
-
-onValue(ref(db, "testimonios/"), snapshot => {
-  total = aprobados = pendientes = 0;
-  paisesMap.clear();
-
-  snapshot.forEach (child => { 
-    const d = child.val();
-    total++;
-    if (d.aprobado) aprobados++; else pendientes++;
-    const p = (d.pais || "Desconocido").trim();
-    paisesMap.set(p, (paisesMap.get(p) || 0) + 1);
-  });
-
-  totalSpan.textContent = total;
-  aprobadosSpan.textContent = aprobados;
-  pendientesSpan.textContent = pendientes;
-  paisesSpan.textContent = paisesMap.size;
-
-  renderCharts();
-});
-  
-function render Charts() {
-  new Chart(document.getElementById("grafico-estado"), {
-    type: "doughnut",
-    data: {
-      labels: ["Aprobados", "Pendientes"],
-      datasets: [{
-        label: "Estado",
-        data: [aprobados, pendientes],
-        backgroundColor: ["#2ecc71", "#f39c12"]
-      }]
-    },
-    options: {
-      plugins: {
-        title: {
-          display: true,
-          text: "Estado actual de los testimonios"
-        },
-        legend: { position: "bottom" }
-      }
-    }
-  });
-
-  new Chart(document.getElementById("grafico-paises"), {
-    type: "bar",
-    data: {
-      labels: Array.from(paisesMap.keys()),
-      datasets: [{
-        label: "Testimonios por país",
-        data: Array.from(paisesMap.values()),
-        backgroundColor: "#2e3a59"
-      }]
-    },
-    options: {
-      indexAxis: 'y',
-      plugins: {
-        title: {
-          display: true,
-          text: "Origen geográfico de los testimonios"
-        }
-      },
-      scales: {
-        x: { beginAtZero: true }
-      }
-    }
-  });
-}
-</script>
- < audioList.length) {
-      const audio = new Audio(audioList[index]);
-      audio.play();
-      index++;
-<script>
-document.querySelectorAll(".btn-sonoro").forEach(boton => {
-  const audioSrc = boton.getAttribute("data-audio");
-  const audio = new Audio(audioSrc);
-  boton.addEventListener("mouseenter", () => {
-    audio.currentTime = 0;
-    audio.play();
-  });
-});
-</script>
-
-document.querySelectorAll('.btn-sonoro').forEach(boton => {
-  const audioList = JSON.parse(boton.dataset.audios || '[]');
-  const videoLink = boton.dataset.video || null;
-  let index = 0;
-
-  boton.addEventListener('click', () => {
-    if (index
-    } else if (videoLink) {
-      const modal = document.getElementById("modal-video");
-      const contenido = modal.querySelector(".modal-content");
-      contenido.innerHTML = `
-        <iframe width="100%" height="315" src="${videoLink}"
-        title="Video relacionado al botón sonoro" frameborder="0"
-        allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
-      modal.classList.remove("oculto");
-      index = 0; // Reinicia para volver a jugar
-    }
-  });
-});
-</script>
-<!-- 🪟 Modal para mostrar el video después de las tres frases -->
-<div id="modal-video" class="modal oculto" style="position:fixed; top:0; left:0; width:100%; height:100%; background:#000000d0; display:flex; justify-content:center; align-items:center; z-index:1000;">
-  <div class="modal-content" style="width:90%; max-width:700px;"></div>
-</div>
-
-<script>
-// Permitir cerrar el modal haciendo clic fuera
-document.getElementById("modal-video").addEventListener("click", () => {
-  document.getElementById("modal-video").classList.add("oculto");
-});
-</script>
-<script>
-// 🌿 Cada botón tiene una secuencia de frases, como pétalos que se abren uno a uno
-document.querySelectorAll('.btn-sonoro').forEach(boton => {
-  const audioList = JSON.parse(boton.dataset.audios || '[]');
-  const videoLink = boton.dataset.video || null;
-  let index = 0;
-
-  boton.addEventListener('click', () => {
-    if (index < audioList.length) {
-      const audio = new Audio(audioList[index]);
-      audio.play();
-      index++;
-    } else if (videoLink) {
-      // 🌠 Cuando se han escuchado todas las frases, se abre la experiencia completa
-      const modal = document.getElementById("modal-video");
-      const contenido = modal.querySelector(".modal-content");
-      contenido.innerHTML = `
-        <iframe width="100%" height="315" src="${videoLink}" 
-        title="Video relacionado al botón sonoro" frameborder="0" 
-        allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      `;
-      modal.classList.remove("oculto");
-      index = 0; // Reinicia para la próxima visita
-    }
-  });
-});
-  </script>
-<div class="sello-etico">
-  ✋🏽⚖️ <a href="LICENSE.md" target="_blank" title="Ver Licencia Ética">Licencia Ética</a>
-</div>
-
-</body>
-<div id="modal-video" class="modal oculto">
-  <div class="modal-content">
-    <span id="cerrar-modal" style="font-size: 2 rem; cursor: pointer; color: white; position: absolute; top: 10 px; right: 20 px;">&times;</span>
-    <iframe id="iframe-video" src="" allowfullscreen></iframe>
-  </div>
-</div>
-<!-- 🗺️ Botón para mostrar la hoja de ruta -->
-<button onclick="document.getElementById('hoja-ruta').classList.toggle('oculto')" style="margin:2rem auto; display:block;">
-  📋 Ver hoja de ruta del proyecto
-</button>
-
-<!-- 📋 Hoja de ruta interactiva -->
-<section id="hoja-ruta" class="oculto" style="background:#f9f9f9; color:#111; padding:2rem 1rem; font-family:'Inter',sans-serif;">
-  <h2 style="text-align:center;">🛠️ Hoja de Ruta – Voces Invisibles</h2>
-  
-  <div style="max-width:800px; margin:0 auto;">
-    
-    <h3>🎧 Producción de audio</h3>
-    <ul>
-      <li>🔲 Grabar audios para botones (3 frases por botón)</li>
-      <li>🔲 Narración de la frase final de la paloma</li>
-      <li>🔲 Crear voces para escenas y testimonios</li>
-    </ul>
-
-    <h3>📁 Estructura técnica</h3>
-    <ul>
-      <li>✅ Código JS para botones sonoros</li>
-      <li>✅ Modal de video al finalizar las frases</li>
-      <li>✅ Sello visual con nombre y país del colaborador</li>
-      <li>✅ Archivos de contribución en ES e inglés</li>
-      <li>🔲 Integrar audios al instalador automático</li>
-    </ul>
-
-    <h3>🖋️ Narrativa y contenido visual</h3>
-    <ul>
-      <li>✅ Escena final con paloma y frase simbólica</li>
-      <li>✅ Fragmento poético en el README</li>
-      <li>🔲 Visualización poética de nodos sonoros</li>
-      <li>🔲 Banner gráfico: “🕊️ Voz colaboradora”</li>
-    </ul>
-
-    <h3>🌍 Comunidad y colaboración</h3>
-    <ul>
-      <li>🔲 Habilitar formulario para subir voces sin GitHub</li>
-      <li>🔲 Activar convocatoria pública a narradores</li>
-      <li>🔲 Registrar nuevas voces en `COLABORADORES-SONOROS.md`</li>
-    </ul>
-  </div>
-</section>
-
-<style>
-.oculto { display: none; }
-ul li { margin: 0.4rem 0; }
-</style>
-
-</html>
-
+    <!-- 🕊️ Cierre visual -->
+    <footer>
+      <div class="footer-inner">
+        <h2>🌱 Origen 2.0 comienza ahora</h2>
+        <p><strong>Tecnología con alma.</strong> <strong>Realidad sin filtros.</strong> <strong>Justicia sin
+            fronteras.</strong></p>
+        <p class="small">© Origen 2.0 JOHN JAIRO MONTOYA</p>
+      </div>
+      <!-- Audio de bienvenida -->
+      <audio autoplay preload="auto"> <source src="assets/audios/documentary-suspense-ambient-313131.mp3" type="audio/mp3">
+      </audio></body></html>
